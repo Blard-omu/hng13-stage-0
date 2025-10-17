@@ -30,7 +30,7 @@ A simple RESTful API built with Node.js, Express, and TypeScript that returns pr
 - **nodemon** and **ts-node**: For development with auto-reload
 
 ### Live Demo 
-[https://your-hosted-url/me](https://your-hosted-url/me)  
+[https://radical-leopard-blard-76cbdf0f.koyeb.app/me](https://radical-leopard-blard-76cbdf0f.koyeb.app/me)  
 
 ## Getting Started
 
@@ -46,13 +46,11 @@ Create a `.env` file in the root directory with the following variables:
 PORT=3000  # Optional, defaults to 3000
 ```
 
-*Note*: Unlike the provided pattern, the user’s email, name, and stack are hardcoded in `src/index.ts` (as shown in the previous code). Update them directly in the code or extend to use `.env` if preferred.
-
 ### Installation
 1. Clone this repository:
 ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone ://github.com/Blard-omu/hng13-stage-0/.git
+   cd hng13-stage-0
 ```
 
 2. Install dependencies:
@@ -110,15 +108,6 @@ curl http://localhost:3000/me
 
 ### Deployment
 This API can be deployed to platforms like Railway, Heroku, AWS, Render or others (Vercel is forbidden).
-
-#### Railway Deployment
-1. Create a new project on [Railway](https://railway.app).
-2. Connect your GitHub repository.
-3. Add environment variables (if any) in Railway’s dashboard:
-   - `PORT`: 3000 (optional, Railway assigns one if not set).
-4. Deploy the application. Railway will run `npm run build` and `npm start`.
-5. Access the API at `https://your-project.railway.app/me`.
-
 
 ### Testing
 - **Local Testing**:
